@@ -1,0 +1,12 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+    <defs>
+        <style>.scroll-down{fill:#faffff;}</style>
+    </defs>
+    <title>scroll_down</title>
+    <g id="scroll_down" data-name="scroll down icon">
+        <g id="scroll_down_1" data-name="scroll_down_1">
+            <path class="scroll-down" d="M30,0A30,30,0,1,0,60,30,30,30,0,0,0,30,0Zm8.21,26.54-7,8.8a1.5,1.5,0,0,1-2.34,0l-7-8.8a1.5,1.5,0,0,1,2.35-1.88L30,32l5.86-7.33a1.5,1.5,0,0,1,2.35,1.88Z"/>
+        </g>
+    </g>
+</svg>
