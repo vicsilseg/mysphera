@@ -26,9 +26,11 @@ $(document).ready(function() {
   var overlayOn = function() {
     $(".page-item").mouseenter(function(e) {
       var $overlay = $(this).children(".overlay");
-      var $text = $(this).children("span");
+      var $text = $(this).children("h3");
+      var $label = $(this).children(".page-item-label");
       $overlay.toggleClass("is-active");
       $text.toggleClass("is-active");
+      $label.toggleClass("is-active");
     });
   };
 
@@ -38,9 +40,11 @@ $(document).ready(function() {
   var overlayOff = function() {
     $(".page-item").mouseleave(function(e) {
       var $overlay = $(this).children(".overlay");
-      var $text = $(this).children("span");
+      var $text = $(this).children("h3");
+      var $label = $(this).children(".page-item-label");
       $overlay.toggleClass("is-active");
       $text.toggleClass("is-active");
+      $label.toggleClass("is-active");
     });
   };
 
