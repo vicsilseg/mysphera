@@ -222,6 +222,7 @@ body.overlay-active {
 .home-header {
   z-index: 101;
   position: absolute;
+  max-width: 1200px;
   top: 20%;
   width: 70%;
 }
@@ -348,7 +349,7 @@ body.overlay-active {
   color: #555555;
 }
 #map {
-  z-index: 150;
+  z-index: -150;
   position: absolute;
   top: 100px;
   opacity: 0.1;
@@ -393,6 +394,16 @@ body.overlay-active {
 .iot-container p,
 .iot-container h2 {
   text-align: left;
+}
+.iot-container > p {
+  line-height: 1.4rem;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 300;
+  flex-basis: 40%;
+  max-width: 600px;
+  height: 20%;
+  color: #555555;
 }
 .ms-button p {
   color: #969797;

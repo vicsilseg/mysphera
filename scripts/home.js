@@ -1,3 +1,4 @@
+/* HOME */
 
 $(document).ready(function() {
   /**/
@@ -187,7 +188,6 @@ $(document).ready(function() {
       $img.removeClass("img-augmented");
     });
   }
-  
   addLogoToSection(logos);
   eachLogoEnter();
   eachLogoLeave();
